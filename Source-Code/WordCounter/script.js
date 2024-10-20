@@ -731,7 +731,7 @@ input.addEventListener("keyup", function () {
 
     // step-4: displaying top 4 keywords and their count
     topKeywords.innerHTML = "";
-    for (var i = 0; i < sortedKeywords.length && i < 4; i++) {
+    for (var i = 0; i < sortedKeywords.length && i < 6; i++) {
       var li = document.createElement("li");
       li.innerHTML =
         "<b>" + sortedKeywords[i][0] + "</b>: " + sortedKeywords[i][1];
